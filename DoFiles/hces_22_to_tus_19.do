@@ -1,0 +1,41 @@
+* HCES TO TUS
+
+replace StateCode="01"	if 	StateName ==	"Ladakh"						
+replace StateCode=	"26"	if 	StateName ==	"Dadra & Nagar Haveli and Daman and Diu"	& 	DistrictName ==	"Dadra  & Nagar Haveli"
+
+replace StateName =	"Daman & Diu"	if 	DistrictName ==	"Diu"	|	DistrictName ==	"Daman"			
+replace StateName =	"D & N Haveli"	if 	DistrictName ==	"Dadra  & Nagar Haveli"						
+replace StateName =	"A & N Islands"	if 	DistrictName ==	"Nicobars"	|	DistrictName ==	"North & Middle Andaman"	|	DistrictName ==	"South Andaman"
+
+replace StateName =	"Jammu & Kashmir"	if 	DistrictName ==	"Leh"	|	DistrictName ==	"Kargil"			
+					
+					
+					
+replace DistrictName =	"Bathinda"	if 	DistrictName ==	"Bhatinda"	& 	StateName ==	"Punjab"
+replace DistrictName =	"North West Delhi"	if 	DistrictName ==	"North West"	& 	StateName ==	"Delhi"
+replace DistrictName =	"North Delhi"	if 	DistrictName ==	"North"	& 	StateName ==	"Delhi"
+replace DistrictName =	"North East Delhi"	if 	DistrictName ==	"North East"	& 	StateName ==	"Delhi"
+replace DistrictName =	"East Delhi"	if 	DistrictName ==	"East"	& 	StateName ==	"Delhi"
+replace DistrictName =	"Central Delhi"	if 	DistrictName ==	"Central"	& 	StateName ==	"Delhi"
+replace DistrictName =	"West Delhi"	if 	DistrictName ==	"West"	& 	StateName ==	"Delhi"
+replace DistrictName =	"South West Delhi"	if 	DistrictName ==	"South West"	& 	StateName ==	"Delhi"
+replace DistrictName =	"South Delhi"	if 	DistrictName ==	"South"	& 	StateName ==	"Delhi"
+replace DistrictName =	"Mahrajganj"	if 	DistrictName ==	"Maharajganj"	& 	StateName ==	"Uttar Pradesh"
+replace DistrictName =	"Sant Ravidas Nagar (Bhadohi)"	if 	DistrictName ==	"Sant Ravidas Nagar(Bhadohi)"	& 	StateName ==	"Uttar Pradesh"
+replace DistrictName =	"Aizawl"	if 	DistrictName ==	"Aizwal"	& 	StateName ==	"Mizoram"
+replace DistrictName =	"North Tripura"	if 	DistrictName ==	"Unakoti"	& 	StateName ==	"Tripura"
+replace DistrictName =	"West Tripura"	if 	DistrictName ==	"Khowai"	& 	StateName ==	"Tripura"
+replace DistrictName =	"West Tripura"	if 	DistrictName ==	"Sepahijala"	& 	StateName ==	"Tripura"
+replace DistrictName =	"South Tripura"	if 	DistrictName ==	"Gomati"	& 	StateName ==	"Tripura"
+replace DistrictName =	"Nagaon"	if 	DistrictName ==	"Hojai"	& 	StateName ==	"Assam"
+replace DistrictName =	"Karbi Anglong"	if 	DistrictName ==	"West karbi Anglong"	& 	StateName ==	"Assam"
+replace DistrictName =	"Sivasagar"	if 	DistrictName ==	"Charaideo"	& 	StateName ==	"Assam"
+replace DistrictName =	"Dhubri"	if 	DistrictName ==	"South Salmara Mankachar"	& 	StateName ==	"Assam"
+replace DistrictName =	"Sonitpur"	if 	DistrictName ==	"Biswanath"	& 	StateName ==	"Assam"
+replace DistrictName =	"Jorhat"	if 	DistrictName ==	"Majuli"	& 	StateName ==	"Assam"
+replace DistrictName =	"Ahmedabad"	if 	DistrictName ==	"Ahmadabad"	& 	StateName ==	"Gujarat"
+replace DistrictName =	"DevBhumi-Dwarka"	if 	DistrictName ==	"Dev Bhumi-Dwarka"	& 	StateName ==	"Gujarat"
+replace DistrictName =	"Bangalore (Rural)"	if 	DistrictName ==	"Bangalore Rural"	& 	StateName ==	"Karnataka"
+replace DistrictName =	"Jayashankar"	if 	DistrictName ==	"Mulugu"	& 	StateName ==	"Telangana"
+replace DistrictName =	"Mahbubnagar"	if 	DistrictName ==	"Narayanpet"	& 	StateName ==	"Telangana"
+replace DistrictName =	"Dadra & Nagar Haveli"	if 	DistrictName ==	"Dadra  & Nagar Haveli"	& 	StateName ==	"D & N Haveli"
